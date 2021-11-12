@@ -1,0 +1,64 @@
+{
+    "git.enabled": false,
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    "customizeUI.font.monospace": "Consolas",
+
+    "editor.detectIndentation": false,
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            // "editor.background": "#000000",
+            // "tab.activeBackground": "#ff0000",
+            // "tab.inactiveBackground": "#808080",
+            // "editorGroupHeader.tabsBackground": "#ff0000"
+
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#ebdbb2",
+            "variables": "#dddddd",
+            // "comments": "#33D17A",
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    },  
+                },
+            ]
+        },
+        "[Gruvbox Dark Soft]": {
+            "textMateRules": [
+                {
+                    "scope": ["variable.other.readwrite", "variable.other.object"],
+                    "settings": {
+                        "foreground": "#ebdbb2"
+                    }
+                }
+            ]
+        }
+    },
+
+    "telemetry.telemetryLevel": "off",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "window.enableMenuBarMnemonics": false,
+    "editor.fontFamily": "Consolas",
+    "terminal.integrated.cwd": ".",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "window.menuBarVisibility": "toggle",
+}

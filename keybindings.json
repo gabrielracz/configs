@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+;",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    // Toggle between terminal and editor focus
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+
+    { "key": "meta+1","command": "workbench.action.openEditorAtIndex1" },
+    { "key": "meta+2","command": "workbench.action.openEditorAtIndex2" },
+    { "key": "meta+3","command": "workbench.action.openEditorAtIndex3" },
+    { "key": "meta+4","command": "workbench.action.openEditorAtIndex4" },
+    { "key": "meta+5","command": "workbench.action.openEditorAtIndex5" },
+    {
+        "key": "meta+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.toggleMinimap"
+    },
+]
